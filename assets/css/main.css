@@ -217,6 +217,49 @@ transition: all .8s;
     width:100%;
 }
 }
+.latest-blog .row {
+    justify-content: center;
+}
+.latest-blog h2 {
+    color: #151875;
+}
+.blog-card {
+    width: 340px;
+    background: #fff;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+
+
+.blog-card h3 {
+    color: #151875;
+}
+
+.blog-card p {
+    color: #555;
+}
+.blog-content a{
+    color: var(--primaryColor);
+}
+
+
+.blog-card:hover h3 {
+    color: var(--primaryColor);
+    transition: 0.3s;
+}
+.blog-content .fa-pen-nib{
+    color: #FB2E86;
+}
+.blog-content .fa-calendar{
+    color: #FFA454;
+}
 @media screen and (max-width:1120px) {
     .footer .row {
         gap: 20px;
